@@ -1,0 +1,14 @@
+.styled-text ul {
+    list-style-type: disc; /* Use disc for bullet points */
+    margin-left: 20px; /* Adjust margin as needed */
+  }
+  
+  .styled-text ol {
+    list-style-type: decimal; /* Use decimal for ordered lists */
+    margin-left: 20px; /* Adjust margin as needed */
+  }
+  
+  .styled-text li {
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+  

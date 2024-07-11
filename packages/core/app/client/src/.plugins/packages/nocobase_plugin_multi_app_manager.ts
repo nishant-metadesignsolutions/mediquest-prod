@@ -1,0 +1,1 @@
+export { default } from '../../../../../../plugins/@nocobase/plugin-multi-app-manager/src/client';

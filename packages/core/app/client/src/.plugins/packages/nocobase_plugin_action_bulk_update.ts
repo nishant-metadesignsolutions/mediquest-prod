@@ -1,0 +1,1 @@
+export { default } from '../../../../../../plugins/@nocobase/plugin-action-bulk-update/src/client';

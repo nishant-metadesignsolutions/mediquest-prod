@@ -1,0 +1,22 @@
+/* styles.css */
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8d7da; /* Light red background color - you can change this */
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #721c24; /* Dark red text color - you can change this */
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: #721c24; /* Dark red text color - you can change this */
+    margin-top: 10px;
+  }
+  

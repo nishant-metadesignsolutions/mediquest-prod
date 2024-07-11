@@ -1,0 +1,170 @@
+/* Add this styling to your PaymentPage.css file or include it in your component */
+/* 
+.payment-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-options-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-options {
+  width: 45%;
+}
+
+.payment-options h3 {
+  margin-bottom: 10px;
+}
+
+.payment-options button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-options button:hover {
+  background-color: #45a049;
+}
+
+.payment-details {
+  width: 50%;
+}
+
+.payment-details h3 {
+  margin-bottom: 10px;
+}
+
+.payment-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-details input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.payment-details button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.payment-details button:hover {
+  background-color: #2980b9;
+}
+
+button[type="button"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #2980b9;
+} */
+
+
+
+/* Add this styling to your PaymentPage.css file */
+
+.payment-page-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-options-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-options {
+  width: 45%;
+}
+
+.payment-options h3 {
+  margin-bottom: 10px;
+}
+
+.payment-options button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.payment-options button:hover {
+  background-color: #2980b9;
+}
+
+.payment-details {
+  width: 45%;
+}
+
+.payment-details h3 {
+  margin-bottom: 10px;
+}
+
+.payment-details p {
+  margin-bottom: 15px;
+}
+
+.payment-details input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-details button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.payment-details button:hover {
+  background-color: #2980b9;
+}
+
+button[type="button"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button[type="button"]:hover {
+  background-color: #2980b9;
+}

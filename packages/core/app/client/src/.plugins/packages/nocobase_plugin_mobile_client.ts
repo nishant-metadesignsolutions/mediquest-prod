@@ -1,0 +1,1 @@
+export { default } from '../../../../../../plugins/@nocobase/plugin-mobile-client/src/client';

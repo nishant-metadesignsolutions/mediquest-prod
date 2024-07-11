@@ -1,0 +1,47 @@
+
+$class: fontSize-;
+@for $i from 8 through 70 {
+    .#{$class}#{$i} {
+        font-size: $i*1px !important;
+    }
+}
+@media screen and (min-width:360px){
+    $class: fontSize-xs-;
+    @for $i from 8 through 70 {
+        .#{$class}#{$i} {
+            font-size: $i*1px !important;
+        }
+    }
+}
+@media screen and (min-width:576px){
+    $class: fontSize-sm-;
+    @for $i from 8 through 70 {
+        .#{$class}#{$i} {
+            font-size: $i*1px !important;
+        }
+    }
+}
+@media screen and (min-width:768px){
+    $class: fontSize-md-;
+    @for $i from 8 through 70 {
+        .#{$class}#{$i} {
+            font-size: $i*1px !important;
+        }
+    }
+}
+@media screen and (min-width:992px){
+    $class: fontSize-lg-;
+    @for $i from 8 through 70 {
+        .#{$class}#{$i} {
+            font-size: $i*1px !important;
+        }
+    }
+}
+@media screen and (max-width:1200px){
+    $class: fontSize-xl-;
+    @for $i from 8 through 70 {
+        .#{$class}#{$i} {
+            font-size: $i*1px !important;
+        }
+    }
+}

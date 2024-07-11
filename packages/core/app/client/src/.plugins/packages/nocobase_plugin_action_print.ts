@@ -1,0 +1,1 @@
+export { default } from '../../../../../../plugins/@nocobase/plugin-action-print/src/client';

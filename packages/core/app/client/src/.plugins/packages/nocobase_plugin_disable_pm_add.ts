@@ -1,0 +1,1 @@
+export { default } from '../../../../../../plugins/@nocobase/plugin-disable-pm-add/src/client';

@@ -1,0 +1,82 @@
+.css-xs0h5t,
+.css-junazh {
+  display: none !important;
+}
+.pdf-view {
+  /* min-height: 420px; */
+  height: 100%;
+}
+
+.timer-text {
+  font-size: 42px;
+  font-weight: 800;
+}
+input[disabled] {
+  background-color: #f2f2f2 !important; /* Change background color */
+  color: #080808; /* Change text color */
+  cursor: not-allowed; /* Change cursor */
+  /* Add any other styles you want for disabled input fields */
+}
+.messages-displayed {
+  p {
+    font-size: 18px !important;
+  }
+}
+.attend-box {
+  p {
+    margin-bottom: 5px !important;
+  }
+}
+.venue-address {
+  p {
+    color: #fff;
+  }
+}
+.thankyou .transaction-page {
+  p {
+    margin: 0 !important;
+  }
+}
+.content-wrapper {
+  p {
+    margin-bottom: 5px !important;
+  }
+}
+
+.others-field {
+  color: #747070;
+}
+#root > .ant-app > div {
+  overflow: visible !important;
+}
+.paragraph-no-space p {
+  margin: 0 !important;
+}
+.long-placeholder {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Allow height to adjust */
+  padding: 10px; /* Add padding for better readability */
+  resize: vertical; /* Allow vertical resizing */
+}
+.mb-10{
+  margin-bottom: 2%;
+  p {
+    line-height: 2em;
+  }
+}
+
+.wt-600 {
+  font-weight: 600 !important;
+}
+.form-box-rm-pd{
+  padding-top: 0px !important;
+}
+
+@media (max-width: 767px) {
+  .menu-list li .submenu {
+    display: none;
+  }
+  .menu-list li:hover .submenu {
+    display: block;
+  }
+}

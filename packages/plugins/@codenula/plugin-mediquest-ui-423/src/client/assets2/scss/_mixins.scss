@@ -1,0 +1,7 @@
+
+@function rem-calc($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
+
+/* text font style */

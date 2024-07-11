@@ -1,0 +1,744 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@nocobase/acl/client": [
+        "packages/core/acl/src/client"
+      ],
+      "@nocobase/acl/package.json": [
+        "packages/core/acl/package.json"
+      ],
+      "@nocobase/acl": [
+        "packages/core/acl/src"
+      ],
+      "@nocobase/actions/client": [
+        "packages/core/actions/src/client"
+      ],
+      "@nocobase/actions/package.json": [
+        "packages/core/actions/package.json"
+      ],
+      "@nocobase/actions": [
+        "packages/core/actions/src"
+      ],
+      "@nocobase/app/client": [
+        "packages/core/app/src/client"
+      ],
+      "@nocobase/app/package.json": [
+        "packages/core/app/package.json"
+      ],
+      "@nocobase/app": [
+        "packages/core/app/src"
+      ],
+      "@nocobase/auth/client": [
+        "packages/core/auth/src/client"
+      ],
+      "@nocobase/auth/package.json": [
+        "packages/core/auth/package.json"
+      ],
+      "@nocobase/auth": [
+        "packages/core/auth/src"
+      ],
+      "@nocobase/build/client": [
+        "packages/core/build/src/client"
+      ],
+      "@nocobase/build/package.json": [
+        "packages/core/build/package.json"
+      ],
+      "@nocobase/build": [
+        "packages/core/build/src"
+      ],
+      "@nocobase/cache/client": [
+        "packages/core/cache/src/client"
+      ],
+      "@nocobase/cache/package.json": [
+        "packages/core/cache/package.json"
+      ],
+      "@nocobase/cache": [
+        "packages/core/cache/src"
+      ],
+      "@nocobase/cli/client": [
+        "packages/core/cli/src/client"
+      ],
+      "@nocobase/cli/package.json": [
+        "packages/core/cli/package.json"
+      ],
+      "@nocobase/cli": [
+        "packages/core/cli/src"
+      ],
+      "@nocobase/client/client": [
+        "packages/core/client/src/client"
+      ],
+      "@nocobase/client/package.json": [
+        "packages/core/client/package.json"
+      ],
+      "@nocobase/client": [
+        "packages/core/client/src"
+      ],
+      "@nocobase/client/demo-utils": [
+        "packages/core/client/src/demo-utils"
+      ],
+      "create-nocobase-app/client": [
+        "packages/core/create-nocobase-app/src/client"
+      ],
+      "create-nocobase-app/package.json": [
+        "packages/core/create-nocobase-app/package.json"
+      ],
+      "create-nocobase-app": [
+        "packages/core/create-nocobase-app/src"
+      ],
+      "@nocobase/data-source-manager/client": [
+        "packages/core/data-source-manager/src/client"
+      ],
+      "@nocobase/data-source-manager/package.json": [
+        "packages/core/data-source-manager/package.json"
+      ],
+      "@nocobase/data-source-manager": [
+        "packages/core/data-source-manager/src"
+      ],
+      "@nocobase/database/client": [
+        "packages/core/database/src/client"
+      ],
+      "@nocobase/database/package.json": [
+        "packages/core/database/package.json"
+      ],
+      "@nocobase/database": [
+        "packages/core/database/src"
+      ],
+      "@nocobase/devtools/client": [
+        "packages/core/devtools/src/client"
+      ],
+      "@nocobase/devtools/package.json": [
+        "packages/core/devtools/package.json"
+      ],
+      "@nocobase/devtools": [
+        "packages/core/devtools/src"
+      ],
+      "@nocobase/evaluators/client": [
+        "packages/core/evaluators/src/client"
+      ],
+      "@nocobase/evaluators/package.json": [
+        "packages/core/evaluators/package.json"
+      ],
+      "@nocobase/evaluators": [
+        "packages/core/evaluators/src"
+      ],
+      "@nocobase/logger/client": [
+        "packages/core/logger/src/client"
+      ],
+      "@nocobase/logger/package.json": [
+        "packages/core/logger/package.json"
+      ],
+      "@nocobase/logger": [
+        "packages/core/logger/src"
+      ],
+      "@nocobase/resourcer/client": [
+        "packages/core/resourcer/src/client"
+      ],
+      "@nocobase/resourcer/package.json": [
+        "packages/core/resourcer/package.json"
+      ],
+      "@nocobase/resourcer": [
+        "packages/core/resourcer/src"
+      ],
+      "@nocobase/sdk/client": [
+        "packages/core/sdk/src/client"
+      ],
+      "@nocobase/sdk/package.json": [
+        "packages/core/sdk/package.json"
+      ],
+      "@nocobase/sdk": [
+        "packages/core/sdk/src"
+      ],
+      "@nocobase/server/client": [
+        "packages/core/server/src/client"
+      ],
+      "@nocobase/server/package.json": [
+        "packages/core/server/package.json"
+      ],
+      "@nocobase/server": [
+        "packages/core/server/src"
+      ],
+      "@nocobase/telemetry/client": [
+        "packages/core/telemetry/src/client"
+      ],
+      "@nocobase/telemetry/package.json": [
+        "packages/core/telemetry/package.json"
+      ],
+      "@nocobase/telemetry": [
+        "packages/core/telemetry/src"
+      ],
+      "@nocobase/test/client": [
+        "packages/core/test/src/client"
+      ],
+      "@nocobase/test/package.json": [
+        "packages/core/test/package.json"
+      ],
+      "@nocobase/test": [
+        "packages/core/test/src"
+      ],
+      "@nocobase/test/server": [
+        "packages/core/test/src/server"
+      ],
+      "@nocobase/test/e2e": [
+        "packages/core/test/src/e2e"
+      ],
+      "@nocobase/test/web": [
+        "packages/core/test/src/web"
+      ],
+      "@nocobase/utils/client": [
+        "packages/core/utils/src/client"
+      ],
+      "@nocobase/utils/package.json": [
+        "packages/core/utils/package.json"
+      ],
+      "@nocobase/utils": [
+        "packages/core/utils/src"
+      ],
+      "@nocobase/preset-nocobase/client": [
+        "packages/presets/nocobase/src/client"
+      ],
+      "@nocobase/preset-nocobase/package.json": [
+        "packages/presets/nocobase/package.json"
+      ],
+      "@nocobase/preset-nocobase": [
+        "packages/presets/nocobase/src"
+      ],
+      "@codenula/plugin-mediquest-ui-423/client": [
+        "packages/plugins/@codenula/plugin-mediquest-ui-423/src/client"
+      ],
+      "@codenula/plugin-mediquest-ui-423/package.json": [
+        "packages/plugins/@codenula/plugin-mediquest-ui-423/package.json"
+      ],
+      "@codenula/plugin-mediquest-ui-423": [
+        "packages/plugins/@codenula/plugin-mediquest-ui-423/src"
+      ],
+      "@nocobase/plugin-acl/client": [
+        "packages/plugins/@nocobase/plugin-acl/src/client"
+      ],
+      "@nocobase/plugin-acl/package.json": [
+        "packages/plugins/@nocobase/plugin-acl/package.json"
+      ],
+      "@nocobase/plugin-acl": [
+        "packages/plugins/@nocobase/plugin-acl/src"
+      ],
+      "@nocobase/plugin-action-bulk-edit/client": [
+        "packages/plugins/@nocobase/plugin-action-bulk-edit/src/client"
+      ],
+      "@nocobase/plugin-action-bulk-edit/package.json": [
+        "packages/plugins/@nocobase/plugin-action-bulk-edit/package.json"
+      ],
+      "@nocobase/plugin-action-bulk-edit": [
+        "packages/plugins/@nocobase/plugin-action-bulk-edit/src"
+      ],
+      "@nocobase/plugin-action-bulk-update/client": [
+        "packages/plugins/@nocobase/plugin-action-bulk-update/src/client"
+      ],
+      "@nocobase/plugin-action-bulk-update/package.json": [
+        "packages/plugins/@nocobase/plugin-action-bulk-update/package.json"
+      ],
+      "@nocobase/plugin-action-bulk-update": [
+        "packages/plugins/@nocobase/plugin-action-bulk-update/src"
+      ],
+      "@nocobase/plugin-action-custom-request/client": [
+        "packages/plugins/@nocobase/plugin-action-custom-request/src/client"
+      ],
+      "@nocobase/plugin-action-custom-request/package.json": [
+        "packages/plugins/@nocobase/plugin-action-custom-request/package.json"
+      ],
+      "@nocobase/plugin-action-custom-request": [
+        "packages/plugins/@nocobase/plugin-action-custom-request/src"
+      ],
+      "@nocobase/plugin-action-duplicate/client": [
+        "packages/plugins/@nocobase/plugin-action-duplicate/src/client"
+      ],
+      "@nocobase/plugin-action-duplicate/package.json": [
+        "packages/plugins/@nocobase/plugin-action-duplicate/package.json"
+      ],
+      "@nocobase/plugin-action-duplicate": [
+        "packages/plugins/@nocobase/plugin-action-duplicate/src"
+      ],
+      "@nocobase/plugin-action-export/client": [
+        "packages/plugins/@nocobase/plugin-action-export/src/client"
+      ],
+      "@nocobase/plugin-action-export/package.json": [
+        "packages/plugins/@nocobase/plugin-action-export/package.json"
+      ],
+      "@nocobase/plugin-action-export": [
+        "packages/plugins/@nocobase/plugin-action-export/src"
+      ],
+      "@nocobase/plugin-action-import/client": [
+        "packages/plugins/@nocobase/plugin-action-import/src/client"
+      ],
+      "@nocobase/plugin-action-import/package.json": [
+        "packages/plugins/@nocobase/plugin-action-import/package.json"
+      ],
+      "@nocobase/plugin-action-import": [
+        "packages/plugins/@nocobase/plugin-action-import/src"
+      ],
+      "@nocobase/plugin-action-print/client": [
+        "packages/plugins/@nocobase/plugin-action-print/src/client"
+      ],
+      "@nocobase/plugin-action-print/package.json": [
+        "packages/plugins/@nocobase/plugin-action-print/package.json"
+      ],
+      "@nocobase/plugin-action-print": [
+        "packages/plugins/@nocobase/plugin-action-print/src"
+      ],
+      "@nocobase/plugin-api-doc/client": [
+        "packages/plugins/@nocobase/plugin-api-doc/src/client"
+      ],
+      "@nocobase/plugin-api-doc/package.json": [
+        "packages/plugins/@nocobase/plugin-api-doc/package.json"
+      ],
+      "@nocobase/plugin-api-doc": [
+        "packages/plugins/@nocobase/plugin-api-doc/src"
+      ],
+      "@nocobase/plugin-api-keys/client": [
+        "packages/plugins/@nocobase/plugin-api-keys/src/client"
+      ],
+      "@nocobase/plugin-api-keys/package.json": [
+        "packages/plugins/@nocobase/plugin-api-keys/package.json"
+      ],
+      "@nocobase/plugin-api-keys": [
+        "packages/plugins/@nocobase/plugin-api-keys/src"
+      ],
+      "@nocobase/plugin-audit-logs/client": [
+        "packages/plugins/@nocobase/plugin-audit-logs/src/client"
+      ],
+      "@nocobase/plugin-audit-logs/package.json": [
+        "packages/plugins/@nocobase/plugin-audit-logs/package.json"
+      ],
+      "@nocobase/plugin-audit-logs": [
+        "packages/plugins/@nocobase/plugin-audit-logs/src"
+      ],
+      "@nocobase/plugin-auth/client": [
+        "packages/plugins/@nocobase/plugin-auth/src/client"
+      ],
+      "@nocobase/plugin-auth/package.json": [
+        "packages/plugins/@nocobase/plugin-auth/package.json"
+      ],
+      "@nocobase/plugin-auth": [
+        "packages/plugins/@nocobase/plugin-auth/src"
+      ],
+      "@nocobase/plugin-auth-sms/client": [
+        "packages/plugins/@nocobase/plugin-auth-sms/src/client"
+      ],
+      "@nocobase/plugin-auth-sms/package.json": [
+        "packages/plugins/@nocobase/plugin-auth-sms/package.json"
+      ],
+      "@nocobase/plugin-auth-sms": [
+        "packages/plugins/@nocobase/plugin-auth-sms/src"
+      ],
+      "@nocobase/plugin-backup-restore/client": [
+        "packages/plugins/@nocobase/plugin-backup-restore/src/client"
+      ],
+      "@nocobase/plugin-backup-restore/package.json": [
+        "packages/plugins/@nocobase/plugin-backup-restore/package.json"
+      ],
+      "@nocobase/plugin-backup-restore": [
+        "packages/plugins/@nocobase/plugin-backup-restore/src"
+      ],
+      "@nocobase/plugin-block-iframe/client": [
+        "packages/plugins/@nocobase/plugin-block-iframe/src/client"
+      ],
+      "@nocobase/plugin-block-iframe/package.json": [
+        "packages/plugins/@nocobase/plugin-block-iframe/package.json"
+      ],
+      "@nocobase/plugin-block-iframe": [
+        "packages/plugins/@nocobase/plugin-block-iframe/src"
+      ],
+      "@nocobase/plugin-calendar/client": [
+        "packages/plugins/@nocobase/plugin-calendar/src/client"
+      ],
+      "@nocobase/plugin-calendar/package.json": [
+        "packages/plugins/@nocobase/plugin-calendar/package.json"
+      ],
+      "@nocobase/plugin-calendar": [
+        "packages/plugins/@nocobase/plugin-calendar/src"
+      ],
+      "@nocobase/plugin-charts/client": [
+        "packages/plugins/@nocobase/plugin-charts/src/client"
+      ],
+      "@nocobase/plugin-charts/package.json": [
+        "packages/plugins/@nocobase/plugin-charts/package.json"
+      ],
+      "@nocobase/plugin-charts": [
+        "packages/plugins/@nocobase/plugin-charts/src"
+      ],
+      "@nocobase/plugin-client/client": [
+        "packages/plugins/@nocobase/plugin-client/src/client"
+      ],
+      "@nocobase/plugin-client/package.json": [
+        "packages/plugins/@nocobase/plugin-client/package.json"
+      ],
+      "@nocobase/plugin-client": [
+        "packages/plugins/@nocobase/plugin-client/src"
+      ],
+      "@nocobase/plugin-collection-sql/client": [
+        "packages/plugins/@nocobase/plugin-collection-sql/src/client"
+      ],
+      "@nocobase/plugin-collection-sql/package.json": [
+        "packages/plugins/@nocobase/plugin-collection-sql/package.json"
+      ],
+      "@nocobase/plugin-collection-sql": [
+        "packages/plugins/@nocobase/plugin-collection-sql/src"
+      ],
+      "@nocobase/plugin-data-source-main/client": [
+        "packages/plugins/@nocobase/plugin-data-source-main/src/client"
+      ],
+      "@nocobase/plugin-data-source-main/package.json": [
+        "packages/plugins/@nocobase/plugin-data-source-main/package.json"
+      ],
+      "@nocobase/plugin-data-source-main": [
+        "packages/plugins/@nocobase/plugin-data-source-main/src"
+      ],
+      "@nocobase/plugin-data-source-manager/client": [
+        "packages/plugins/@nocobase/plugin-data-source-manager/src/client"
+      ],
+      "@nocobase/plugin-data-source-manager/package.json": [
+        "packages/plugins/@nocobase/plugin-data-source-manager/package.json"
+      ],
+      "@nocobase/plugin-data-source-manager": [
+        "packages/plugins/@nocobase/plugin-data-source-manager/src"
+      ],
+      "@nocobase/plugin-data-visualization/client": [
+        "packages/plugins/@nocobase/plugin-data-visualization/src/client"
+      ],
+      "@nocobase/plugin-data-visualization/package.json": [
+        "packages/plugins/@nocobase/plugin-data-visualization/package.json"
+      ],
+      "@nocobase/plugin-data-visualization": [
+        "packages/plugins/@nocobase/plugin-data-visualization/src"
+      ],
+      "@nocobase/plugin-disable-pm-add/client": [
+        "packages/plugins/@nocobase/plugin-disable-pm-add/src/client"
+      ],
+      "@nocobase/plugin-disable-pm-add/package.json": [
+        "packages/plugins/@nocobase/plugin-disable-pm-add/package.json"
+      ],
+      "@nocobase/plugin-disable-pm-add": [
+        "packages/plugins/@nocobase/plugin-disable-pm-add/src"
+      ],
+      "@nocobase/plugin-error-handler/client": [
+        "packages/plugins/@nocobase/plugin-error-handler/src/client"
+      ],
+      "@nocobase/plugin-error-handler/package.json": [
+        "packages/plugins/@nocobase/plugin-error-handler/package.json"
+      ],
+      "@nocobase/plugin-error-handler": [
+        "packages/plugins/@nocobase/plugin-error-handler/src"
+      ],
+      "@nocobase/plugin-field-china-region/client": [
+        "packages/plugins/@nocobase/plugin-field-china-region/src/client"
+      ],
+      "@nocobase/plugin-field-china-region/package.json": [
+        "packages/plugins/@nocobase/plugin-field-china-region/package.json"
+      ],
+      "@nocobase/plugin-field-china-region": [
+        "packages/plugins/@nocobase/plugin-field-china-region/src"
+      ],
+      "@nocobase/plugin-field-formula/client": [
+        "packages/plugins/@nocobase/plugin-field-formula/src/client"
+      ],
+      "@nocobase/plugin-field-formula/package.json": [
+        "packages/plugins/@nocobase/plugin-field-formula/package.json"
+      ],
+      "@nocobase/plugin-field-formula": [
+        "packages/plugins/@nocobase/plugin-field-formula/src"
+      ],
+      "@nocobase/plugin-field-markdown-vditor/client": [
+        "packages/plugins/@nocobase/plugin-field-markdown-vditor/src/client"
+      ],
+      "@nocobase/plugin-field-markdown-vditor/package.json": [
+        "packages/plugins/@nocobase/plugin-field-markdown-vditor/package.json"
+      ],
+      "@nocobase/plugin-field-markdown-vditor": [
+        "packages/plugins/@nocobase/plugin-field-markdown-vditor/src"
+      ],
+      "@nocobase/plugin-field-sequence/client": [
+        "packages/plugins/@nocobase/plugin-field-sequence/src/client"
+      ],
+      "@nocobase/plugin-field-sequence/package.json": [
+        "packages/plugins/@nocobase/plugin-field-sequence/package.json"
+      ],
+      "@nocobase/plugin-field-sequence": [
+        "packages/plugins/@nocobase/plugin-field-sequence/src"
+      ],
+      "@nocobase/plugin-file-manager/client": [
+        "packages/plugins/@nocobase/plugin-file-manager/src/client"
+      ],
+      "@nocobase/plugin-file-manager/package.json": [
+        "packages/plugins/@nocobase/plugin-file-manager/package.json"
+      ],
+      "@nocobase/plugin-file-manager": [
+        "packages/plugins/@nocobase/plugin-file-manager/src"
+      ],
+      "@nocobase/plugin-gantt/client": [
+        "packages/plugins/@nocobase/plugin-gantt/src/client"
+      ],
+      "@nocobase/plugin-gantt/package.json": [
+        "packages/plugins/@nocobase/plugin-gantt/package.json"
+      ],
+      "@nocobase/plugin-gantt": [
+        "packages/plugins/@nocobase/plugin-gantt/src"
+      ],
+      "@nocobase/plugin-graph-collection-manager/client": [
+        "packages/plugins/@nocobase/plugin-graph-collection-manager/src/client"
+      ],
+      "@nocobase/plugin-graph-collection-manager/package.json": [
+        "packages/plugins/@nocobase/plugin-graph-collection-manager/package.json"
+      ],
+      "@nocobase/plugin-graph-collection-manager": [
+        "packages/plugins/@nocobase/plugin-graph-collection-manager/src"
+      ],
+      "@nocobase/plugin-kanban/client": [
+        "packages/plugins/@nocobase/plugin-kanban/src/client"
+      ],
+      "@nocobase/plugin-kanban/package.json": [
+        "packages/plugins/@nocobase/plugin-kanban/package.json"
+      ],
+      "@nocobase/plugin-kanban": [
+        "packages/plugins/@nocobase/plugin-kanban/src"
+      ],
+      "@nocobase/plugin-localization/client": [
+        "packages/plugins/@nocobase/plugin-localization/src/client"
+      ],
+      "@nocobase/plugin-localization/package.json": [
+        "packages/plugins/@nocobase/plugin-localization/package.json"
+      ],
+      "@nocobase/plugin-localization": [
+        "packages/plugins/@nocobase/plugin-localization/src"
+      ],
+      "@nocobase/plugin-logger/client": [
+        "packages/plugins/@nocobase/plugin-logger/src/client"
+      ],
+      "@nocobase/plugin-logger/package.json": [
+        "packages/plugins/@nocobase/plugin-logger/package.json"
+      ],
+      "@nocobase/plugin-logger": [
+        "packages/plugins/@nocobase/plugin-logger/src"
+      ],
+      "@nocobase/plugin-map/client": [
+        "packages/plugins/@nocobase/plugin-map/src/client"
+      ],
+      "@nocobase/plugin-map/package.json": [
+        "packages/plugins/@nocobase/plugin-map/package.json"
+      ],
+      "@nocobase/plugin-map": [
+        "packages/plugins/@nocobase/plugin-map/src"
+      ],
+      "@nocobase/plugin-mobile-client/client": [
+        "packages/plugins/@nocobase/plugin-mobile-client/src/client"
+      ],
+      "@nocobase/plugin-mobile-client/package.json": [
+        "packages/plugins/@nocobase/plugin-mobile-client/package.json"
+      ],
+      "@nocobase/plugin-mobile-client": [
+        "packages/plugins/@nocobase/plugin-mobile-client/src"
+      ],
+      "@nocobase/plugin-mock-collections/client": [
+        "packages/plugins/@nocobase/plugin-mock-collections/src/client"
+      ],
+      "@nocobase/plugin-mock-collections/package.json": [
+        "packages/plugins/@nocobase/plugin-mock-collections/package.json"
+      ],
+      "@nocobase/plugin-mock-collections": [
+        "packages/plugins/@nocobase/plugin-mock-collections/src"
+      ],
+      "@nocobase/plugin-multi-app-manager/client": [
+        "packages/plugins/@nocobase/plugin-multi-app-manager/src/client"
+      ],
+      "@nocobase/plugin-multi-app-manager/package.json": [
+        "packages/plugins/@nocobase/plugin-multi-app-manager/package.json"
+      ],
+      "@nocobase/plugin-multi-app-manager": [
+        "packages/plugins/@nocobase/plugin-multi-app-manager/src"
+      ],
+      "@nocobase/plugin-multi-app-share-collection/client": [
+        "packages/plugins/@nocobase/plugin-multi-app-share-collection/src/client"
+      ],
+      "@nocobase/plugin-multi-app-share-collection/package.json": [
+        "packages/plugins/@nocobase/plugin-multi-app-share-collection/package.json"
+      ],
+      "@nocobase/plugin-multi-app-share-collection": [
+        "packages/plugins/@nocobase/plugin-multi-app-share-collection/src"
+      ],
+      "@nocobase/plugin-notifications/client": [
+        "packages/plugins/@nocobase/plugin-notifications/src/client"
+      ],
+      "@nocobase/plugin-notifications/package.json": [
+        "packages/plugins/@nocobase/plugin-notifications/package.json"
+      ],
+      "@nocobase/plugin-notifications": [
+        "packages/plugins/@nocobase/plugin-notifications/src"
+      ],
+      "@nocobase/plugin-sample-hello/client": [
+        "packages/plugins/@nocobase/plugin-sample-hello/src/client"
+      ],
+      "@nocobase/plugin-sample-hello/package.json": [
+        "packages/plugins/@nocobase/plugin-sample-hello/package.json"
+      ],
+      "@nocobase/plugin-sample-hello": [
+        "packages/plugins/@nocobase/plugin-sample-hello/src"
+      ],
+      "@nocobase/plugin-snapshot-field/client": [
+        "packages/plugins/@nocobase/plugin-snapshot-field/src/client"
+      ],
+      "@nocobase/plugin-snapshot-field/package.json": [
+        "packages/plugins/@nocobase/plugin-snapshot-field/package.json"
+      ],
+      "@nocobase/plugin-snapshot-field": [
+        "packages/plugins/@nocobase/plugin-snapshot-field/src"
+      ],
+      "@nocobase/plugin-system-settings/client": [
+        "packages/plugins/@nocobase/plugin-system-settings/src/client"
+      ],
+      "@nocobase/plugin-system-settings/package.json": [
+        "packages/plugins/@nocobase/plugin-system-settings/package.json"
+      ],
+      "@nocobase/plugin-system-settings": [
+        "packages/plugins/@nocobase/plugin-system-settings/src"
+      ],
+      "@nocobase/plugin-theme-editor/client": [
+        "packages/plugins/@nocobase/plugin-theme-editor/src/client"
+      ],
+      "@nocobase/plugin-theme-editor/package.json": [
+        "packages/plugins/@nocobase/plugin-theme-editor/package.json"
+      ],
+      "@nocobase/plugin-theme-editor": [
+        "packages/plugins/@nocobase/plugin-theme-editor/src"
+      ],
+      "@nocobase/plugin-ui-schema-storage/client": [
+        "packages/plugins/@nocobase/plugin-ui-schema-storage/src/client"
+      ],
+      "@nocobase/plugin-ui-schema-storage/package.json": [
+        "packages/plugins/@nocobase/plugin-ui-schema-storage/package.json"
+      ],
+      "@nocobase/plugin-ui-schema-storage": [
+        "packages/plugins/@nocobase/plugin-ui-schema-storage/src"
+      ],
+      "@nocobase/plugin-users/client": [
+        "packages/plugins/@nocobase/plugin-users/src/client"
+      ],
+      "@nocobase/plugin-users/package.json": [
+        "packages/plugins/@nocobase/plugin-users/package.json"
+      ],
+      "@nocobase/plugin-users": [
+        "packages/plugins/@nocobase/plugin-users/src"
+      ],
+      "@nocobase/plugin-verification/client": [
+        "packages/plugins/@nocobase/plugin-verification/src/client"
+      ],
+      "@nocobase/plugin-verification/package.json": [
+        "packages/plugins/@nocobase/plugin-verification/package.json"
+      ],
+      "@nocobase/plugin-verification": [
+        "packages/plugins/@nocobase/plugin-verification/src"
+      ],
+      "@nocobase/plugin-workflow/client": [
+        "packages/plugins/@nocobase/plugin-workflow/src/client"
+      ],
+      "@nocobase/plugin-workflow/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow/package.json"
+      ],
+      "@nocobase/plugin-workflow": [
+        "packages/plugins/@nocobase/plugin-workflow/src"
+      ],
+      "@nocobase/plugin-workflow-action-trigger/client": [
+        "packages/plugins/@nocobase/plugin-workflow-action-trigger/src/client"
+      ],
+      "@nocobase/plugin-workflow-action-trigger/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-action-trigger/package.json"
+      ],
+      "@nocobase/plugin-workflow-action-trigger": [
+        "packages/plugins/@nocobase/plugin-workflow-action-trigger/src"
+      ],
+      "@nocobase/plugin-workflow-aggregate/client": [
+        "packages/plugins/@nocobase/plugin-workflow-aggregate/src/client"
+      ],
+      "@nocobase/plugin-workflow-aggregate/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-aggregate/package.json"
+      ],
+      "@nocobase/plugin-workflow-aggregate": [
+        "packages/plugins/@nocobase/plugin-workflow-aggregate/src"
+      ],
+      "@nocobase/plugin-workflow-delay/client": [
+        "packages/plugins/@nocobase/plugin-workflow-delay/src/client"
+      ],
+      "@nocobase/plugin-workflow-delay/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-delay/package.json"
+      ],
+      "@nocobase/plugin-workflow-delay": [
+        "packages/plugins/@nocobase/plugin-workflow-delay/src"
+      ],
+      "@nocobase/plugin-workflow-dynamic-calculation/client": [
+        "packages/plugins/@nocobase/plugin-workflow-dynamic-calculation/src/client"
+      ],
+      "@nocobase/plugin-workflow-dynamic-calculation/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-dynamic-calculation/package.json"
+      ],
+      "@nocobase/plugin-workflow-dynamic-calculation": [
+        "packages/plugins/@nocobase/plugin-workflow-dynamic-calculation/src"
+      ],
+      "@nocobase/plugin-workflow-loop/client": [
+        "packages/plugins/@nocobase/plugin-workflow-loop/src/client"
+      ],
+      "@nocobase/plugin-workflow-loop/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-loop/package.json"
+      ],
+      "@nocobase/plugin-workflow-loop": [
+        "packages/plugins/@nocobase/plugin-workflow-loop/src"
+      ],
+      "@nocobase/plugin-workflow-manual/client": [
+        "packages/plugins/@nocobase/plugin-workflow-manual/src/client"
+      ],
+      "@nocobase/plugin-workflow-manual/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-manual/package.json"
+      ],
+      "@nocobase/plugin-workflow-manual": [
+        "packages/plugins/@nocobase/plugin-workflow-manual/src"
+      ],
+      "@nocobase/plugin-workflow-parallel/client": [
+        "packages/plugins/@nocobase/plugin-workflow-parallel/src/client"
+      ],
+      "@nocobase/plugin-workflow-parallel/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-parallel/package.json"
+      ],
+      "@nocobase/plugin-workflow-parallel": [
+        "packages/plugins/@nocobase/plugin-workflow-parallel/src"
+      ],
+      "@nocobase/plugin-workflow-request/client": [
+        "packages/plugins/@nocobase/plugin-workflow-request/src/client"
+      ],
+      "@nocobase/plugin-workflow-request/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-request/package.json"
+      ],
+      "@nocobase/plugin-workflow-request": [
+        "packages/plugins/@nocobase/plugin-workflow-request/src"
+      ],
+      "@nocobase/plugin-workflow-sql/client": [
+        "packages/plugins/@nocobase/plugin-workflow-sql/src/client"
+      ],
+      "@nocobase/plugin-workflow-sql/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-sql/package.json"
+      ],
+      "@nocobase/plugin-workflow-sql": [
+        "packages/plugins/@nocobase/plugin-workflow-sql/src"
+      ],
+      "@nocobase/plugin-workflow-test/client": [
+        "packages/plugins/@nocobase/plugin-workflow-test/src/client"
+      ],
+      "@nocobase/plugin-workflow-test/package.json": [
+        "packages/plugins/@nocobase/plugin-workflow-test/package.json"
+      ],
+      "@nocobase/plugin-workflow-test": [
+        "packages/plugins/@nocobase/plugin-workflow-test/src"
+      ],
+      "@nocobase/plugin-workflow-test/e2e": [
+        "packages/plugins/@nocobase/plugin-workflow-test/src/e2e"
+      ]
+    }
+  }
+}

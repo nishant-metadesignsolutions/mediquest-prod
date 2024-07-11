@@ -1,0 +1,39 @@
+
+@import url("fonts.css");
+
+/*  fontawesome */
+@import url("font-awesome.min.css");
+
+/* @media print {
+
+    header, .menu-box, footer {
+        display: none !important;
+    }
+} */
+.pdf-view {
+    /* min-height: 420px; */
+    height: 100%;
+}
+
+.timer-text {
+    font-size: 42px;
+    font-weight: 800;
+}
+input[disabled] {
+    background-color: #f2f2f2 !important; /* Change background color */
+    color: #080808; /* Change text color */
+    cursor: not-allowed; /* Change cursor */
+    /* Add any other styles you want for disabled input fields */
+  }
+  .messages-displayed {
+    p{
+        font-size: 18px !important;
+    }
+  }
+
+  .others-field {
+    color: #747070;
+  }
+  #root > .ant-app > div {
+    overflow: visible !important;
+  }
